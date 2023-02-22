@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Live Demo](https://yasertarek.github.io/rock-paper-scissors/index.html)
+- Live Site URL: [Rock paper](https://tomiwayrn.github.io/rock-paper-scissors/)
 
 ## My process
 
