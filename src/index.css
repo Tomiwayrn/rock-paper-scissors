@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
+
+
+:root {
+  scroll-behavior: smooth;
+    --heade-color: white;
+  --sub-header-color: #979797;
+  --info-color: #b6bad6;
+  --main-font: "Barlow Condensed", sans-serif;
+  --second-font: "Bellefair", sans-serif;
+
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--second-font);
+  color: var(--info-color);
+  font-size: 16px;
+  min-height: 100vh;
+  width: 100vw;
+  
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: .3;
+  transition: .4s ease-in;
+}
+
+h1, h2, h3,h4{
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  opacity: .4;
+  background: black;
+ 
+}
+
+#root {
+ background: linear-gradient(  hsl(214, 47%, 23%), hsl(237, 49%, 15%)) ;
+ height: 100%;
+  
+
+}
+
+main {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 50rem;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+
+  
+}
+
+.main-header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 7px;
+  border: 5px solid hsl(217, 16%, 45%);
+  z-index: 10;
+  
+  
+}
+
+.main-header > img {
+  height: 120px;
+}
+
+.scoreboard {
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  border-radius: 5px;
+  background: #ffff;
+  
+}
+
+.scoreboard > h4 {
+  color:hsl(229, 64%, 46%) ;
+}
+
+.scoreboard > h1 {
+  color: hsl(237, 49%, 15%);
+}
+
+.difficulty{
+  display: flex;
+  gap: 10px;
+  align-self: center;
+  color: #ddd;
+}
+
+
+
+@keyframes result {
+     0% {
+      width: 0px;
+     
+     }
+
+     100% {
+      width: auto;
+     
+     }
+}
+
+@keyframes shadow {
+  0% {
+    box-shadow: none;
+
+  }
+  100%{
+    box-shadow: 0px 0px 0px 55px hsla(214, 47%, 23%, 80%),
+  0px 0px 0px 95px hsla(214, 47%, 23%, 60%),
+  0px 0px 0px 125px hsla(214, 47%, 23%, 40%);
+  }
+
+}
+
+@keyframes delay {
+  0% {
+    transform: scale(0);
+  }
+
+  90% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+@keyframes new {
+  0% {
+    transform: scale(0);
+   
+  }
+ 
+  50% {
+    transform: scale(.5);
+  }
+  100%{
+  transform: scale(1);
+ 
+  }
+}
+
+@media screen and (min-width:768px) {
+  
+   
+    .rules-btn {
+      align-self: flex-end;
+    }
+
+    .results {
+     display: flex;
+     justify-content: space-between;
+     font-size: .8rem;
+     padding-bottom: 1rem;
+      
+    }
+
+    
+    .house {
+      order: 3;
+    }
+
+    .result-btn {
+      padding: 20px;
+    }
+
+    .result-btn img {
+      width: 80px;
+    }
+
+    .game-btn {
+      font-size: 3px;
+    }
+
+    .btn-container{
+      max-height: 380px;
+    }
+       
+}
+
+

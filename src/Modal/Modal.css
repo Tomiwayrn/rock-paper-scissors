@@ -1,0 +1,26 @@
+.modal {
+    animation: new .4s ease-in;
+    position: absolute;
+    background: #fff;
+    width: 80%;
+    max-width: 430px;
+    top: 50%;
+    left: 50%;
+    right: 0%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    color: hsl(237, 49%, 15%);
+    padding: 20px 0px;
+    padding-bottom: 60px;
+  }
+  
+  
