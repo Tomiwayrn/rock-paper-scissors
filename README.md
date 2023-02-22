@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Rock paper](https://tomiwayrn.github.io/rock-paper-scissors/)
+- Live Site URL: [Rock paper](https://aquamarine-lebkuchen-af684e.netlify.app/)
 
 ## My process
 
